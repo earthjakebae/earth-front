@@ -1,7 +1,7 @@
 <template>
   <div class="hello">
     <h1>{{ msg }}</h1>
-    <h1>배포 자동화 테스트 세번째</h1>
+    <h1>배포 자동화 테스트 네번째</h1>
   </div>
 </template>
 

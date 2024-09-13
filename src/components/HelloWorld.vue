@@ -10,6 +10,11 @@ export default {
   name: 'HelloWorld',
   props: {
     msg: String
+  },
+  computed:{
+    message() {
+      return process.env.VUE_APP_MESSAGE || 'Default Message';
+    }
   }
 }
 </script>

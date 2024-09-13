@@ -1,16 +1,13 @@
 <template>
   <div class="hello">
-    <h1>{{ msg }}</h1>
-    <h1>젠킨스 배포 및 ngrok 활용 테스트 세번째</h1>
+    <h1>{{ message }}</h1>
+    <h1>환경설정 파일 다수 적용 테스트 첫번째</h1>
   </div>
 </template>
 
 <script>
 export default {
   name: 'HelloWorld',
-  props: {
-    msg: String
-  },
   computed:{
     message() {
       return process.env.VUE_APP_MESSAGE || 'Default Message';

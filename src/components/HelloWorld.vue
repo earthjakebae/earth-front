@@ -1,7 +1,7 @@
 <template>
   <div class="hello">
     <h1>{{ message }}</h1>
-    <h1>환경설정 파일 다수 적용 테스트 첫번째</h1>
+    <h1>환경설정 파일 다수 적용 테스트 두번째</h1>
   </div>
 </template>
 
